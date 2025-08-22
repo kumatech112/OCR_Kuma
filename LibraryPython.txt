@@ -1,0 +1,16 @@
+รายการ Library
+
+re → ใช้ Regular Expression แก้ไข/จัดการข้อความ
+os, sys → จัดการไฟล์และ path
+pathlib (Path) → ใช้แทน os.path เพื่อจัดการเส้นทางไฟล์ให้สะดวก
+numpy (np) → จัดการภาพ/ข้อมูลเป็น array
+pandas (pd) → เก็บข้อมูลเป็น DataFrame และส่งออก Excel
+cv2 (OpenCV) → ประมวลผลรูปภาพ เช่น แปลงเป็น grayscale, threshold, หมุน
+PIL (Pillow) → เปิด/บันทึก/แปลงไฟล์รูปภาพ
+pytesseract → OCR ดึงข้อความจากรูปภาพ (ใช้ Tesseract OCR)
+pypdfium2 (pdfium) → แปลง PDF เป็นรูปภาพความละเอียดสูง (DPI)
+unicodedata → จัดการ Normalize ตัวอักษร เช่น ภาษาไทย/อังกฤษ
+math → คำนวณมุม หมุนรูปภาพ แปลงองศา
+openpyxl → (ใช้เบื้องหลัง pandas) สำหรับเขียนไฟล์ Excel (.xlsx)
+
+pip install numpy pandas opencv-python pillow pytesseract pypdfium2 openpyxl
